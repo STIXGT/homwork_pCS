@@ -7,7 +7,7 @@
 ### 1.2 Creación del Archivo de Configuración
  Crea un archivo config.py para almacenar la configuración de la base de datos.
 
-# config.py
+## config.py
 class Config:
     MYSQL_HOST = 'localhost'
     MYSQL_USER = 'your_mysql_user'
@@ -21,7 +21,7 @@ Crea un archivo routes.py para definir los endpoints de tu API.
 ### 1.4 Creación del Archivo Principal de la Aplicación
 Crea un archivo app.py para iniciar la aplicación Flask.
 
-# app.py
+## app.py
 from flask import Flask
 from flask_mysqldb import MySQL
 from flask_cors import CORS
@@ -31,13 +31,13 @@ from routes import init_routes
 app = Flask(__name__)
 app.config.from_object(Config)
 
-# Inicializar MySQL
+### Inicializar MySQL
 mysql = MySQL(app)
 
-# Inicializar CORS
+### Inicializar CORS
 CORS(app)
 
-# Inicializar rutas
+### Inicializar rutas
 init_routes(app, mysql)
 
 if __name__ == '__main__':
