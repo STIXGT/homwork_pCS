@@ -69,11 +69,11 @@ Inicia la aplicación React.
 
 npm start
 
-##4. Verificar la Aplicación
+## 4. Verificar la Aplicación
 Abre tu navegador y navega a http://localhost:3000.
 Usa la barra de navegación para moverte entre las vistas de clientes, habitaciones y reservas.
 Asegúrate de que los datos se muestran correctamente y que las peticiones a la API están funcionando como se espera.
-##5. Depuración y Mejoras
+## 5. Depuración y Mejoras
 Utiliza la consola del navegador para verificar los datos que se reciben.
 Asegúrate de que los datos se están mostrando correctamente en cada componente.
 Aplica estilos adicionales según sea necesario para mejorar la interfaz de usuario.
